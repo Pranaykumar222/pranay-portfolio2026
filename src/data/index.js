@@ -12,9 +12,9 @@ export const PERSONAL = {
 }
 
 export const STATS = [
-  { value: 3,  suffix: "+", label: "Projects Built" },
-  { value: 5,  suffix: "+", label: "Core Technologies" },
-  { value: 2,  suffix: "+", label: "Years Coding" },
+  { value: 3, suffix: "+", label: "Projects Built" },
+  { value: 5, suffix: "+", label: "Core Technologies" },
+  { value: 2, suffix: "+", label: "Years Coding" },
 ]
 
 export const ABOUT_PARAGRAPHS = [
@@ -47,35 +47,54 @@ export const FOCUS_AREAS = [
 export const SKILLS = {
   Languages: [
     { name: "JavaScript", icon: "⚡" },
-    { name: "TypeScript",  icon: "🔷" },
-    { name: "Java",        icon: "☕" }
+    { name: "TypeScript", icon: "🔷" },
+    { name: "Java", icon: "☕" }
   ],
   Frontend: [
-    { name: "React.js",    icon: "⚛️" },
-    { name: "Tailwind CSS",icon: "🎨" },
-    { name: "HTML5/CSS3",  icon: "🌐" },
-    { name: "Redux",       icon: "🔄" },
+    { name: "React.js", icon: "⚛️" },
+    { name: "Tailwind CSS", icon: "🎨" },
+    { name: "HTML5/CSS3", icon: "🌐" },
+    { name: "Redux", icon: "🔄" },
   ],
   Backend: [
-    { name: "Node.js",     icon: "🟢" },
-    { name: "Express.js",  icon: "🚀" },
-    { name: "Socket.io",   icon: "🔌" },
-    { name: "REST APIs",   icon: "🔗" },
-    { name: "JWT Auth",    icon: "🔐" },
+    { name: "Node.js", icon: "🟢" },
+    { name: "Express.js", icon: "🚀" },
+    { name: "Socket.io", icon: "🔌" },
+    { name: "REST APIs", icon: "🔗" },
+    { name: "JWT Auth", icon: "🔐" },
   ],
   Databases: [
-    { name: "MongoDB",     icon: "🍃" },
-    { name: "PostgreSQL",  icon: "🐘" }
+    { name: "MongoDB", icon: "🍃" },
+    { name: "PostgreSQL", icon: "🐘" }
   ],
   "Tools & DevOps": [
-    { name: "Git & GitHub",icon: "🐙" },
-    { name: "Vercel",      icon: "▲" },
-    { name: "Postman",     icon: "📮" },
-    { name: "VS Code",     icon: "💻" },
+    { name: "Git & GitHub", icon: "🐙" },
+    { name: "Vercel", icon: "▲" },
+    { name: "Postman", icon: "📮" },
+    { name: "VS Code", icon: "💻" },
   ],
 }
 
 export const PROJECTS = [
+  {
+    title: "BucOS",
+    emoji: "💸",
+    description: "A mobile-first group expense and trip budget manager. Features shared expense tracking, cash and UPI wallets, crew chat, and optimal settlements — making it easy for groups to manage and settle expenses efficiently.",
+    tech: ["React", "Node.js", "Express", "Supabase", "PostgreSQL"],
+    github: "https://github.com/Pranaykumar222/BucOS",
+    live: "https://buc-os.vercel.app/",
+    accent: "#10b981",
+  },
+
+  {
+    title: "Movathon",
+    emoji: "🔥",
+    description: "A habit and productivity tracker designed to build consistency. Features habit streaks, daily tasks, progress tracking, and a 12-month activity heatmap — helping users visualize progress and stay motivated.",
+    tech: ["React", "JavaScript", "Tailwind CSS", "Node.js", "Express"],
+    github: "https://github.com/Pranaykumar222/Movathon",
+    live: "https://movathon.vercel.app/",
+    accent: "#f97316",
+  },
   {
     title: "CampusConnect",
     emoji: "🎓",
@@ -93,15 +112,6 @@ export const PROJECTS = [
     github: "https://github.com/Pranaykumar222/Food-Delivery-App",
     live: "https://food-delivery-app-client-bren.onrender.com/",
     accent: "#f97316",
-  },
-  {
-    title: "Quiz App",
-    emoji: "🧠",
-    description: "Interactive quiz platform with timed challenges, leaderboards, category-based questions, and detailed score analytics. Supports multiple formats and difficulty levels.",
-    tech: ["React", "Node.js", "MongoDB", "Express"],
-    github: "https://github.com/Pranaykumar222/Quiz-App",
-    live: "https://quiz-app-eta-flame.vercel.app",
-    accent: "#ec4899",
   },
 ]
 
